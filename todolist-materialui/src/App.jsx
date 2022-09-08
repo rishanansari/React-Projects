@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import "./index.css";
-import Button from '@material-ui/core/Button';
-import AddIcon from "@material-ui/icons/Add";
+import Button from '@mui/material/Button';
+import AddIcon from '@mui/icons-material/Add';
 import Todolist from "./Todolist";
 // import "../node_modules/bootstrap/dist/css/bootstrap.min.css"   ---give className= bootstrap classes to JSX element---
 

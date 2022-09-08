@@ -9,7 +9,7 @@ function App() {
     boxSizing: "border-box",
   };
 
-  let currDate = new Date(2022, 1, 22, 2).getHours();
+  let currDate = new Date().getHours(); //2022, 1, 22, 2 inside the Date
   let greeting = " ";
   let cssStyle = {};
   if (currDate >= 1 && currDate < 12) {

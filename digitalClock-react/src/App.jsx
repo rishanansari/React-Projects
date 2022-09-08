@@ -20,12 +20,12 @@ function TimeChange() {
 
 //if we want digital clock which update automatically use setinetrval - ---just remove button and call the function in setinterval with 1000 ms...----
 
-setInterval(TimeChange,1000);
+// setInterval(TimeChange,1000);
 
   return (
 <>
 <h1>{currtime}</h1>
-{/* <button onClick={TimeChange}> Get Time </button> */}
+<button onClick={TimeChange}> Get Time </button>
 </>
 );
 };

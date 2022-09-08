@@ -1,0 +1,46 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+h1{
+ display: flex;
+ justify-content: center;
+}
+
+.navbar{
+  width: 100%;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(3, 41, 41);
+
+}
+.navbar-item{
+  box-sizing: border-box;
+transition: all 0.5s;
+}
+.search{
+ display: flex;
+ justify-content: center;
+}
+.search input{
+  width: 25%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid blue;
+}
+.Sresult{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+button{
+  position: fixed;
+  left: 50%;
+}
